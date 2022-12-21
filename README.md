@@ -15,8 +15,13 @@ THen assume that values and vectors in that type np.linalg and the neigen vector
 ### Step 5:
 Ten print the Eigen values and Eigen Vectors.
 ## Program:
-
+```
+import numpy as np
+A=np.array([[2,-3,0],[2,-5,0],[0,0,3]])
+values,Vectors=np.linalg.eig(A)
+print("Eigen values are {} and Eigen Vectors are {}".format(values,Vectors))
+```
 ## Output:
-
+![OUTPUT](./image/Maths%20ex%204.png)
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
